@@ -1,0 +1,21 @@
+#footer {
+  text-align: center;
+
+  ul {
+    width: 470px / 940px * 100%;
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: $footer-font;
+    color: $grey;
+
+    li {
+      float: left;
+      border-left: solid 1px #000;
+      padding: 0 30px;
+  	}
+    li:first-child {
+      border-left: none;
+    }
+  }
+}

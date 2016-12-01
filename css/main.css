@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Bitter");
+body {
+  width: 940px;
+  margin: auto; }
+
+#header {
+  height: 60px;
+  padding-top: 20px; }
+  #header .site-brand {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: "PT Sans", sans-serif;
+    color: #00DF3D; }
+  #header nav {
+    margin-top: 10px;
+    float: right;
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    color: #5D5D5D; }
+    #header nav li {
+      list-style-type: none;
+      float: left;
+      border-left: solid 1px #000;
+      padding: 0 20px; }
+    #header nav li:first-child {
+      border-left: none; }
+
+#footer {
+  text-align: center; }
+  #footer ul {
+    width: 50%;
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: "PT Sans", sans-serif;
+    color: #5D5D5D; }
+    #footer ul li {
+      float: left;
+      border-left: solid 1px #000;
+      padding: 0 30px; }
+    #footer ul li:first-child {
+      border-left: none; }
+
+#home-page {
+  margin: auto; }
+  #home-page .content-heading, #home-page h3 {
+    color: #A500B0;
+    font-family: "Noto Sans", "PT Sans", sans-serif;
+    font-size: 30px; }
+  #home-page p {
+    font-family: "Bitter", serif;
+    color: #5D5D5D; }
+  #home-page h3 {
+    font-size: 20px; }
+  #home-page #banner-image, #home-page .thumbnail-image {
+    margin: 0 auto;
+    border: solid 1px #5D5D5D;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px; }
+  #home-page .thumbnail-image {
+    margin: 0 15px; }
+  #home-page .description-container {
+    display: flex;
+    justify-content: space-between; }
+    #home-page .description-container div {
+      width: 47.87234%; }
+
+/*# sourceMappingURL=main.css.map */

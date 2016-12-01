@@ -1,0 +1,43 @@
+// Home Page SCSS
+
+#home-page {
+
+	margin: auto;
+
+	.content-heading {
+		color: $purple;
+		font-family: $content-header;
+		font-size: 30px;
+	}
+
+	p {
+		font-family: $content-body;
+		color: $grey;
+	}
+
+	h3 {
+		@extend .content-heading;
+		font-size: 20px;
+	}
+
+	#banner-image {
+		margin: 0 auto;
+		border: solid 1px $grey;
+		@include border-radius(10px);
+	}
+
+	.thumbnail-image {
+		@extend #banner-image;
+		margin: 0 15px;
+	}
+
+	.description-container {
+		display: flex;
+		justify-content: space-between;
+
+		div {
+			width: 450px / 940px * 100%;
+		}
+	}
+
+}// #home-page

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+// Variables
+
+$grey: #5D5D5D;
+$green: #00DF3D;
+$purple: #A500B0;
+
+// Fonts
+$nav-header: 'PT Sans', sans-serif;
+$content-header: 'Noto Sans', 'PT Sans', sans-serif;
+$content-body: 'Bitter', serif;
+$footer-font: 'PT Sans', sans-serif;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
